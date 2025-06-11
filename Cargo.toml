@@ -3,6 +3,13 @@ name = "cheat_engine"
 version = "0.1.0"
 edition = "2024"
 
+<<<<<<< HEAD
 
 [dependencies]
 winapi = { version = "0.3.9", features = ["psapi", "processthreadsapi", "handleapi"] }
+=======
+[dependencies]
+winapi = { version = "0.3.9", features = ["psapi"] }
+
+
+>>>>>>> 0f796c3fa71c0c9c9d5a0069a166ba4c24ffe316
